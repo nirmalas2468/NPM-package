@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const features = [
   {
     title: 'Clean Design',
-    description: 'Minimalist UI with a focus on readability and functionality, inspired by Apple's design principles.',
+    description: 'Minimalist UI with a focus on readability and functionality, inspired by Apple\'s design principles.',
     icon: Paintbrush
   },
   {
