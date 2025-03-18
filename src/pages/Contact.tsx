@@ -24,7 +24,7 @@ const Contact = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = 'Minimalist - Contact';
+    document.title = 'Tranquil Pages - Contact';
   }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -182,8 +182,8 @@ const Contact = () => {
                       <div>
                         <h3 className="font-medium text-primary">Email</h3>
                         <p className="text-primary/70 mt-1">
-                          <a href="mailto:hello@minimalist.com" className="hover:text-primary transition-colors">
-                            hello@minimalist.com
+                          <a href="mailto:hello@tranquilpages.com" className="hover:text-primary transition-colors">
+                            hello@tranquilpages.com
                           </a>
                         </p>
                       </div>

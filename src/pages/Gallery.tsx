@@ -18,7 +18,7 @@ const galleryImages: GalleryImage[] = [
   {
     id: 1,
     url: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4',
-    title: 'Minimalist Interior',
+    title: 'Tranquil Pages Interior',
     category: 'architecture'
   },
   {
@@ -78,7 +78,7 @@ const Gallery = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = 'Minimalist - Gallery';
+    document.title = 'Tranquil Pages - Gallery';
   }, []);
 
   const handleImageLoaded = (imageId: number) => {

@@ -34,7 +34,7 @@ const features = [
 const Index = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = 'Minimalist - Home';
+    document.title = 'Tranquil Pages - Home';
   }, []);
 
   return (

@@ -27,7 +27,7 @@ const Components = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = 'Minimalist - Components';
+    document.title = 'Tranquil Pages- Components';
     
     // Simulate progress increasing over time
     const timer = setTimeout(() => setProgress(66), 1000);
