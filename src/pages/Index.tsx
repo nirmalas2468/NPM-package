@@ -109,7 +109,7 @@ const Index = () => {
       <IframeSection
         title="Interactive Content"
         description="An embedded iframe showcasing external content while maintaining the design aesthetic of our site."
-        iframeSrc="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        iframeSrc="https://www.youtube.com/embed/8kx7nRGVJRg?si=_TjPiGtXMPIMt6se"
       />
 
       <Footer />

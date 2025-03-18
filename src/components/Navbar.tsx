@@ -47,7 +47,7 @@ const Navbar = () => {
               'transition-colors duration-300',
               isScrolled ? 'text-primary' : 'text-primary'
             )}>
-              Minimalist
+              Tranquil Pages
             </span>
           </Link>
 

@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="text-2xl font-semibold tracking-tight mb-4 block">
-              Minimalist
+             Tranquil Pages
             </Link>
             <p className="text-primary-foreground/70 max-w-md mt-2">
               A beautiful, minimal design focused on simplicity and function. 
@@ -35,7 +35,7 @@ const Footer = () => {
           <div>
             <h3 className="text-sm font-medium uppercase tracking-wider mb-4">Get in Touch</h3>
             <address className="not-italic text-primary-foreground/70">
-              <p>hello@minimalist.com</p>
+              <p>hello@tranquilpages.com</p>
               <p className="mt-2">123 Design Street</p>
               <p>San Francisco, CA 94107</p>
             </address>
@@ -44,7 +44,7 @@ const Footer = () => {
         
         <div className="mt-12 pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row justify-between items-center">
           <p className="text-primary-foreground/70 text-sm">
-            © {currentYear} Minimalist. All rights reserved.
+            © {currentYear} Tranquil Pages. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 text-sm text-primary-foreground/70">
             Crafted with precision
