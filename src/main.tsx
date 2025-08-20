@@ -6,13 +6,10 @@ import './index.css'
 
 // Populate using values in copy-paste JavaScript snippet.
 const options = {
-    init: {session_replay:{enabled:true,block_selector:'',mask_text_selector:'*',sampling_rate:10.0,error_sampling_rate:100.0,mask_all_inputs:true,collect_fonts:true,inline_images:false,inline_stylesheet:true,fix_stylesheets:true,mask_input_options:{}},distributed_tracing:{enabled:true},privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]}}, // NREUM.init
-    info: {beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"NRBR-831606d506bdf5cdc0b",applicationID:"601539290",sa:1}, // NREUM.info
-    loader_config: {accountID:"1",trustKey:"1",agentID:"601539290",licenseKey:"NRBR-831606d506bdf5cdc0b",applicationID:"601539290"}, // NREUM.loader_config
-    features: [
-      Metrics
-    ]
-  }
+  init: {distributed_tracing:{enabled:true},privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]}}, // NREUM.init
+  info: {beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"NRJS-c481e5eae4889263f09",applicationID:"601577303",sa:1}, // NREUM.info
+  loader_config: {accountID:"4450385",trustKey:"4450385",agentID:"601577303",licenseKey:"NRJS-c481e5eae4889263f09",applicationID:"601577303"}, // NREUM.loader_config
+}
   
   // Before settin setUserId
   // new BrowserAgent(options)
